@@ -3,10 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/output.css" />
+    <title>Register</title>
   </head>
-  <body>
-    <h1 class="mt-[6px] text-3xl font-bold underline text-clifford">Hello world!</h1>
+  <body class="background-gradient">
+    <header
+      class="flex flex-row justify-between p-2.5 bg-whiteSmoke shadow-card"
+    >
+      <div id="logo_section" class="flex flex-row items-center gap-[10px]">
+        <img class="w-[60px] h-[60px]" src="/images/logo.png" alt="Logo" />
+        <span class="text-2xl text-gunmetal tracking-[1.2px]">Neighborly</span>
+      </div>
+      <div
+        id="header_items"
+        class="flex flex-row items-center gap-[51px] pr-2.5"
+      >
+        <a href="#" class="text-gunmetal text-xl">Login</a>
+        <a href="#" class="text-gunmetal text-xl">Register</a>
+      </div>
+    </header>
+    <div id="content" class="py-[100px] px-[452px] text-whiteSmoke">
+      <div id="card" class="card">
+        <div id="card_header" class="text-7xl">
+            Register
+        </div>
+        <div id="card_content" class="flex gap-[50px] mt-6 mb-16 text-xl">
+
+            <div id="left" class="w-full flex flex-col gap-4">
+                <div class="flex flex-col gap-1">
+                    <label for="firstName">first name</label>
+                    <input type="text" name="firstName" class="input-text">
+                </div>
+                <div class="flex flex-col gap-1">
+                    <label for="lastName">last name</label>
+                    <input type="text" name="lastName" class="input-text">
+                </div>
+                <div class="flex flex-col gap-1">
+                    <label for="username">username</label>
+                    <input type="text" name="username" class="input-text">
+                </div>
+                <div class="flex flex-col gap-1">
+                    <label for="accountType">account type</label>
+                    <select class="input-text">
+                        <option value="volunteer">volunteer</option>
+                        <option value="recruiter">recruiter</option>
+                    </select>
+                </div>
+            </div>
+            <div id="right" class="w-full flex flex-col gap-4">
+                <div class="flex flex-col gap-1">
+                    <label for="email">email</label>
+                    <input type="email" name="email" class="input-text">
+                </div>
+                <div class="flex flex-col gap-1">
+                    <label for="password">password</label>
+                    <input type="password" name="password" class="input-text">
+                </div>
+                <div class="flex flex-col gap-1">
+                    <label for="repeatedPassword">repeat password</label>
+                    <input type="password" name="repeatedPassword" class="input-text">
+                </div>
+            </div>
+            
+
+        </div>
+
+        <div id="card_footer" class="flex justify-center w-full">
+            <button class="btn-primary">
+                Register
+            </button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
-
