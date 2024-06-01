@@ -1797,14 +1797,6 @@ video {
   border-radius: 0.25rem;
 }
 
-.rounded-\[40px\] {
-  border-radius: 40px;
-}
-
-.rounded-full {
-  border-radius: 9999px;
-}
-
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -1934,15 +1926,6 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-burntSienna {
-  --tw-bg-opacity: 1;
-  background-color: rgb(238 108 77 / var(--tw-bg-opacity));
-}
-
-.bg-cardBackground {
-  background-color: rgba(243, 243, 243, 0.05);
-}
-
 .bg-whiteSmoke {
   --tw-bg-opacity: 1;
   background-color: rgb(243 243 243 / var(--tw-bg-opacity));
@@ -2066,34 +2049,14 @@ video {
   padding: 0.625rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .px-\[452px\] {
   padding-left: 452px;
   padding-right: 452px;
 }
 
-.px-\[50px\] {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
 .py-\[100px\] {
   padding-top: 100px;
   padding-bottom: 100px;
-}
-
-.py-\[30px\] {
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .pr-2 {
