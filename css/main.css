@@ -8,7 +8,7 @@
   }
 
   .input-text {
-    @apply h-[43px] rounded-xl text-gunmetal pl-4;
+    @apply h-[43px] rounded-xl text-gunmetal pl-4 bg-whiteSmoke outline-none focus:outline-none;
   }
 
   .card {
@@ -17,6 +17,22 @@
 
   .btn-primary {
     @apply bg-burntSienna rounded-full shadow-card py-3 px-6 text-whiteSmoke text-xl;
+  }
+  
+  .incoming-message {
+    @apply w-full px-6 py-3 flex justify-start;
+  }
+
+  .incoming-bubble {
+    @apply w-64 py-3 px-6 bg-airForceBlue rounded-full;
+  }
+
+  .outgoing-message {
+    @apply w-full px-6 py-3 flex justify-end;
+  }
+
+  .outgoing-bubble {
+    @apply w-64 py-3 px-6 bg-powderBlue rounded-full;
   }
 }
 
