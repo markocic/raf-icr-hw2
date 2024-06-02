@@ -18,21 +18,29 @@
   .btn-primary {
     @apply bg-burntSienna rounded-full shadow-card py-3 px-6 text-whiteSmoke text-xl;
   }
+
+  .message-bubble {
+    @apply max-w-2xl py-3 px-6 rounded-3xl;
+  }
   
   .incoming-message {
-    @apply w-full px-6 py-3 flex justify-start;
+    @apply justify-start;
+  }
+
+  .message {
+    @apply w-full px-6 py-3 flex;
   }
 
   .incoming-bubble {
-    @apply w-64 py-3 px-6 bg-airForceBlue rounded-full;
+    @apply bg-airForceBlue;
   }
 
   .outgoing-message {
-    @apply w-full px-6 py-3 flex justify-end;
+    @apply justify-end;
   }
 
   .outgoing-bubble {
-    @apply w-64 py-3 px-6 bg-powderBlue rounded-full;
+    @apply bg-powderBlue;
   }
 }
 
