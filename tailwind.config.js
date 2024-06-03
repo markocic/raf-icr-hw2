@@ -15,11 +15,16 @@ module.exports = {
             prussianBlue: '#223347',
             gradientStart: '#243B55',
             gradientEnd: '#141E30',
+            footer: '#0B1321',
+            projectCardGradientStart: '#536976',
+            projectCardGradientEnd: '#292E49',
+
 
             cardBackground: 'rgba(243, 243, 243, 0.05)',
         },
         boxShadow: {
             'card': '0px 4px 14px 3px rgba(0, 0, 0, 0.25)'
+
         },
         
     },

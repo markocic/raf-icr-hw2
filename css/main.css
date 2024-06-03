@@ -7,6 +7,10 @@
     @apply min-h-screen bg-gradient-to-b from-gradientStart to-gradientEnd;
   }
 
+  .project-card-gradient {
+    @apply bg-gradient-to-b from-projectCardGradientStart to-projectCardGradientEnd;
+  }
+
   .input-text {
     @apply h-[43px] rounded-xl text-gunmetal pl-4 bg-whiteSmoke outline-none focus:outline-none;
   }
