@@ -866,6 +866,10 @@ video {
   margin-bottom: 4rem;
 }
 
+.mb-36 {
+  margin-bottom: 9rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -884,14 +888,6 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mb-32 {
-  margin-bottom: 8rem;
-}
-
-.mb-36 {
-  margin-bottom: 9rem;
 }
 
 .box-border {
@@ -1031,16 +1027,8 @@ video {
   height: 60px;
 }
 
-.h-1\/2 {
-  height: 50%;
-}
-
-.h-\[700px\] {
-  height: 700px;
-}
-
-.h-\[426px\] {
-  height: 426px;
+.w-1\/2 {
+  width: 50%;
 }
 
 .w-16 {
@@ -1077,18 +1065,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[426px\] {
-  width: 426px;
-}
-
-.w-\[700px\] {
-  width: 700px;
-}
-
-.w-1\/2 {
-  width: 50%;
 }
 
 .flex-shrink {
@@ -1625,8 +1601,16 @@ video {
   gap: 0.25rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-12 {
   gap: 3rem;
+}
+
+.gap-14 {
+  gap: 3.5rem;
 }
 
 .gap-2 {
@@ -1649,6 +1633,10 @@ video {
   gap: 1rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .gap-\[10px\] {
   gap: 10px;
 }
@@ -1659,18 +1647,6 @@ video {
 
 .gap-\[51px\] {
   gap: 51px;
-}
-
-.gap-14 {
-  gap: 3.5rem;
-}
-
-.gap-8 {
-  gap: 2rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1989,16 +1965,12 @@ video {
   border-radius: 0.25rem;
 }
 
-.rounded-\[40px\] {
-  border-radius: 40px;
-}
-
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
 .rounded-3xl {
   border-radius: 1.5rem;
+}
+
+.rounded-\[40px\] {
+  border-radius: 40px;
 }
 
 .rounded-b {
@@ -2284,6 +2256,11 @@ video {
   padding-right: 1.5rem;
 }
 
+.px-60 {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -2317,16 +2294,6 @@ video {
 .py-\[100px\] {
   padding-top: 100px;
   padding-bottom: 100px;
-}
-
-.py-60 {
-  padding-top: 15rem;
-  padding-bottom: 15rem;
-}
-
-.px-60 {
-  padding-left: 15rem;
-  padding-right: 15rem;
 }
 
 .pr-8 {
@@ -2404,6 +2371,11 @@ video {
   line-height: 1;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
@@ -2422,16 +2394,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .font-bold {
