@@ -868,16 +868,12 @@ video {
   left: 0px;
 }
 
-.left-96 {
-  left: 24rem;
+.left-80 {
+  left: 20rem;
 }
 
 .top-0 {
   top: 0px;
-}
-
-.left-80 {
-  left: 20rem;
 }
 
 .isolate {
@@ -1127,8 +1123,8 @@ video {
   width: 4rem;
 }
 
-.w-96 {
-  width: 24rem;
+.w-80 {
+  width: 20rem;
 }
 
 .w-\[100px\] {
@@ -1153,10 +1149,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-80 {
-  width: 20rem;
 }
 
 .max-w-2xl {
@@ -3056,14 +3048,6 @@ video {
       font-size: 3rem;
       line-height: 1;
     }
-  }
-
-  .md\:block {
-    display: block;
-  }
-
-  .md\:\!block {
-    display: block !important;
   }
 
   .md\:hidden {

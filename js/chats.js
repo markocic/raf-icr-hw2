@@ -24,12 +24,14 @@ const showSideBar = () => {
 }
 
 const hideSideBar = () => {
-    chats.classList.remove("absolute")
     chats.classList.remove("w-80")
     chats.classList.add("md:w-96")
     chats.classList.add("w-0")
 
     hamburger.classList.add("left-0")
     hamburger.classList.remove("left-80")
+    setTimeout(() => {
+        chats.classList.remove("absolute")
+    }, 150)
 
 }
