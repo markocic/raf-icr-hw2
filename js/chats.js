@@ -14,22 +14,22 @@ hamburger.addEventListener("click", (e) => {
 
 const showSideBar = () => {
     chats.classList.add("absolute")
-    chats.classList.add("w-96")
+    chats.classList.add("w-80")
     chats.classList.remove("md:w-96")
     chats.classList.remove("w-0")
 
     hamburger.classList.remove("left-0")
-    hamburger.classList.add("left-96")
+    hamburger.classList.add("left-80")
 
 }
 
 const hideSideBar = () => {
     chats.classList.remove("absolute")
-    chats.classList.remove("w-96")
+    chats.classList.remove("w-80")
     chats.classList.add("md:w-96")
     chats.classList.add("w-0")
 
     hamburger.classList.add("left-0")
-    hamburger.classList.remove("left-96")
+    hamburger.classList.remove("left-80")
 
 }

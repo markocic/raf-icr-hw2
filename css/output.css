@@ -876,6 +876,10 @@ video {
   top: 0px;
 }
 
+.left-80 {
+  left: 20rem;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -1149,6 +1153,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-80 {
+  width: 20rem;
 }
 
 .max-w-2xl {
@@ -3048,6 +3056,14 @@ video {
       font-size: 3rem;
       line-height: 1;
     }
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:\!block {
+    display: block !important;
   }
 
   .md\:hidden {
