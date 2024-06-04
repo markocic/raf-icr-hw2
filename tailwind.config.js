@@ -10,6 +10,7 @@ module.exports = {
             powderBlue: '#98C1D9',
             columbiaBlue: '#C6DAE6',
             burntSienna: '#EE6C4D',
+            darkerBurntSienna: 'rgb(238, 90, 55)',
             gunmetal: '#293241',
             lapisLazuli: '#49678C',
             prussianBlue: '#223347',

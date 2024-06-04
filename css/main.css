@@ -16,11 +16,11 @@
   }
 
   .card {
-    @apply bg-cardBackground shadow-card w-full rounded-[40px] py-[30px] px-[50px];
+    @apply bg-cardBackground shadow-card w-full max-w-4xl rounded-[40px] py-[30px] px-[50px];
   }
 
   .btn-primary {
-    @apply bg-burntSienna rounded-full shadow-card py-3 px-6 text-whiteSmoke text-xl;
+    @apply hover:bg-darkerBurntSienna bg-burntSienna rounded-full shadow-card py-3 px-6 text-whiteSmoke text-xl;
   }
 
   .message-bubble {
