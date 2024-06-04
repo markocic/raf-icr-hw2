@@ -8,7 +8,7 @@
   </head>
   <body class="background-gradient flex flex-col justify-between">
     <header
-      class="flex flex-row justify-between p-2.5 bg-whiteSmoke shadow-card"
+      class="flex flex-col gap-4 sm:gap-0 sm:flex-row justify-between p-2.5 bg-whiteSmoke shadow-card"
     >
       <div id="logo_section" class="flex flex-row items-center gap-[10px]">
         <img class="w-[60px] h-[60px]" src="images/logo.png" alt="Logo" />
@@ -16,7 +16,7 @@
       </div>
       <div
         id="header_items"
-        class="flex flex-row items-center gap-[51px] pr-8"
+        class="flex flex-col sm:flex-row items-center gap-3 sm:gap-[51px] pr-8"
       >
         <a href="#" class="text-gunmetal text-xl">Home</a>
         <a href="#" class="text-gunmetal text-xl">Projects</a>
@@ -32,17 +32,18 @@
 
     <div id="content" class="flex flex-col mt-12 mb-36 gap-14 justify-evenly items-center text-whiteSmoke">
 
-        <div id="hero" class="flex items-center gap-10 px-60 my-12">
-            <div class="image rounded-3xl overflow-hidden w-1/2">
-                <img src="images/hero.jpg" alt="Hero banner">
+        <div id="hero" class="grid grid-cols-1 lg:grid-cols-2
+            items-center justify-center gap-10 my-12 px-10">
+            <div class="image w-full max-w-2xl flex justify-center">
+                <img src="images/hero.jpg" alt="Hero banner" class="rounded-3xl">
             </div>
 
-            <div class="description flex flex-col gap-8 w-1/2">
-                <div class="title text-6xl">
+            <div class="description max-w-2xl flex flex-col md:sm:justify-center gap-8 w-full">
+                <div class="title text-center xl:lg:text-left text-4xl md:sm:text-5xl xl:lg:text-6xl">
                     Creating Community, One Neighbor at a Time
                 </div>
 
-                <div class="mot text-lg">
+                <div class="mot text-center xl:lg:text-left text-lg">
                     At Neighborly, we believe that the heart of every vibrant community lies in the connections we build with those around us. Through acts of kindness, shared efforts, and mutual support, we strive to foster a sense of belonging and unity in every neighborhood. Whether you're offering a helping hand, seeking assistance, or looking to make a positive impact, Neighborly is your platform to connect with like-minded individuals dedicated to making our communities stronger and more compassionate. Join us in turning everyday actions into extraordinary changes, and together, let's create a better, more connected world!
                 </div>
             </div>
@@ -52,13 +53,12 @@
             My Projects
         </div>
 
-        <div id="projects" class="flex gap-12 justify-center w-full mb-16">
-            <div class="project-card w-[368px] project-card-gradient
-                rounded-[40px] overflow-hidden shadow-card cursor-pointer">
+        <div id="projects">
+            <div class="project-card">
 
                 <div class="image">
                     <img src="images/zagajicka.png" alt="Zagajicka Hills"
-                    class="h-[225px] w-[368px]">
+                    class="w-full h-[225px]">
                 </div>
                 <div class="card-content flex flex-col gap-4
                     items-center px-8 py-4 mb-6">
@@ -72,12 +72,11 @@
                 </div>
             </div>
 
-            <div class="project-card w-[368px] project-card-gradient
-                rounded-[40px] overflow-hidden shadow-card cursor-pointer">
+            <div class="project-card">
 
                 <div class="image">
                     <img src="images/gradac.jpg" alt="Gradac River"
-                    class="h-[225px] w-[368px]">
+                    class="w-full h-[225px]">
                 </div>
                 <div class="card-content flex flex-col gap-4
                     items-center px-8 py-4 mb-6">
@@ -91,12 +90,11 @@
                     </div>
                 </div>
             </div>
-            <div class="project-card w-[368px] project-card-gradient
-                rounded-[40px] overflow-hidden shadow-card cursor-pointer">
+            <div class="project-card">
 
                 <div class="image">
                     <img src="images/tara.jpg" alt="Tara River"
-                    class="h-[225px] w-[368px]">
+                    class="w-full h-[225px]">
                 </div>
                 <div class="card-content flex flex-col gap-4
                     items-center px-8 py-4 mb-6">
@@ -117,12 +115,11 @@
 
                 </div>
             </div>
-            <div class="project-card w-[368px] project-card-gradient
-                rounded-[40px] overflow-hidden shadow-card cursor-pointer">
+            <div class="project-card">
 
                 <div class="image">
                     <img src="images/kosmaj.png" alt="Kosmaj Mountain"
-                    class="h-[225px] w-[368px]">
+                    class="h-[225px] w-full">
                 </div>
                 <div class="card-content flex flex-col gap-4
                     items-center px-8 py-4 mb-6">
@@ -141,14 +138,15 @@
 
     </div>
 
-    <footer class="h-[326px] bg-footer flex justify-between px-32 py-9
+    <footer class="min-h-[326px] bg-footer flex flex-col lg:flex-row gap-8
+                   lg:justify-between px-10 lg:px-32 py-9
         text-columbiaBlue text-lg shadow-card">
         <div id="logo_col" class="flex flex-col items-center justify-center
             gap-2">
             <img class="w-[100px] h-[100px]" src="images/logo.png" alt="Logo" />
             <span class="text-2xl tracking-[1.2px]">Neighborly</span>
         </div>
-        <div id="info" class="flex gap-32">
+        <div id="info" class="flex flex-col md:flex-row justify-center gap-4 lg:gap-32">
         <div id="first_col" class="flex flex-col justify-center gap-4">
             <div class="footer_item flex gap-3">
                 <div class="icon">

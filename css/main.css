@@ -46,6 +46,15 @@
   .outgoing-bubble {
     @apply bg-powderBlue;
   }
+  
+  .project-card {
+    @apply  w-full max-w-96 project-card-gradient rounded-[40px]
+            overflow-hidden shadow-card cursor-pointer;
+  }
+
+  #projects {
+      @apply grid px-10 xl:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-6;
+  }
 }
 
 @layer base {
