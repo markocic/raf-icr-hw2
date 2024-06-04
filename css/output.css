@@ -1076,6 +1076,10 @@ video {
   min-height: 326px;
 }
 
+.min-h-96 {
+  min-height: 24rem;
+}
+
 .w-16 {
   width: 4rem;
 }
@@ -1704,6 +1708,10 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -3015,6 +3023,15 @@ video {
 
   .sm\:gap-0 {
     gap: 0px;
+  }
+
+  .sm\:gap-12 {
+    gap: 3rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .sm\:underline {

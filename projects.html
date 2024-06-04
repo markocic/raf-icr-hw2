@@ -8,7 +8,7 @@
   </head>
   <body class="background-gradient flex flex-col justify-between">
     <header
-      class="flex flex-row justify-between p-2.5 bg-whiteSmoke shadow-card"
+      class="flex flex-col gap-4 sm:gap-0 sm:flex-row justify-between p-2.5 bg-whiteSmoke shadow-card"
     >
       <div id="logo_section" class="flex flex-row items-center gap-[10px]">
         <img class="w-[60px] h-[60px]" src="images/logo.png" alt="Logo" />
@@ -16,7 +16,7 @@
       </div>
       <div
         id="header_items"
-        class="flex flex-row items-center gap-[51px] pr-8"
+        class="flex flex-col sm:flex-row items-center gap-3 sm:gap-[51px] pr-8"
       >
         <a href="#" class="text-gunmetal text-xl">Home</a>
         <a href="#" class="text-gunmetal text-xl">Projects</a>
@@ -36,14 +36,13 @@
             My Projects
         </div>
 
-        <div id="projects" class="flex gap-12 justify-center w-full">
+        <div id="projects">
 
-            <div class="project-card w-[368px] project-card-gradient
-                rounded-[40px] overflow-hidden shadow-card cursor-pointer">
+            <div class="project-card">
 
                 <div class="image">
                     <img src="images/gradac.jpg" alt="Gradac River"
-                    class="h-[225px] w-[368px]">
+                    class="w-full h-[225px]">
                 </div>
                 <div class="card-content flex flex-col gap-4
                     items-center px-8 py-4 mb-6">
@@ -57,12 +56,11 @@
                     </div>
                 </div>
             </div>
-            <div class="project-card w-[368px] project-card-gradient
-                rounded-[40px] overflow-hidden shadow-card cursor-pointer">
+            <div class="project-card">
 
                 <div class="image">
                     <img src="images/kosmaj.png" alt="Kosmaj Mountain"
-                    class="h-[225px] w-[368px]">
+                    class="h-[225px] w-full">
                 </div>
                 <div class="card-content flex flex-col gap-4
                     items-center px-8 py-4 mb-6">
@@ -75,12 +73,11 @@
                     </div>
                 </div>
             </div>
-            <div class="project-card w-[368px] project-card-gradient
-                rounded-[40px] overflow-hidden shadow-card cursor-pointer">
+            <div class="project-card">
 
                 <div class="image">
                     <img src="images/zagajicka.png" alt="Zagajicka Hills"
-                    class="h-[225px] w-[368px]">
+                    class="w-full h-[225px]">
                 </div>
                 <div class="card-content flex flex-col gap-4
                     items-center px-8 py-4 mb-6">
@@ -93,9 +90,8 @@
                     </div>
                 </div>
             </div>
-            <div class="project-card w-[368px] project-card-gradient
-                rounded-[40px] overflow-hidden shadow-card flex flex-col gap-12
-                    items-center justify-center px-8 py-4 cursor-pointer">
+            <div class="project-card flex flex-col justify-center items-center
+                gap-6 min-h-96">
 
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                         viewBox="0 0 24 24" stroke-width="1.5"
@@ -109,7 +105,7 @@
 
         </div>
 
-        <div id="pagination" class="flex gap-12 text-2xl">
+        <div id="pagination" class="flex gap-5 sm:gap-12 text-xl sm:text-2xl">
             <div class="cursor-pointer">
                 <<
             </div>
@@ -136,14 +132,15 @@
 
     </div>
 
-    <footer class="h-[326px] bg-footer flex justify-between px-32 py-9
+    <footer class="min-h-[326px] bg-footer flex flex-col lg:flex-row gap-8
+                   lg:justify-between px-10 lg:px-32 py-9
         text-columbiaBlue text-lg shadow-card">
         <div id="logo_col" class="flex flex-col items-center justify-center
             gap-2">
             <img class="w-[100px] h-[100px]" src="images/logo.png" alt="Logo" />
             <span class="text-2xl tracking-[1.2px]">Neighborly</span>
         </div>
-        <div id="info" class="flex gap-32">
+        <div id="info" class="flex flex-col md:flex-row justify-center gap-4 lg:gap-32">
         <div id="first_col" class="flex flex-col justify-center gap-4">
             <div class="footer_item flex gap-3">
                 <div class="icon">
