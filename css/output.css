@@ -868,12 +868,12 @@ video {
   left: 0px;
 }
 
-.top-0 {
-  top: 0px;
-}
-
 .left-96 {
   left: 24rem;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .isolate {
@@ -882,10 +882,6 @@ video {
 
 .isolation-auto {
   isolation: auto;
-}
-
-.z-0 {
-  z-index: 0;
 }
 
 .z-10 {
@@ -1082,16 +1078,6 @@ video {
   height: 1.25rem;
 }
 
-.size-6 {
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.size-4 {
-  width: 1rem;
-  height: 1rem;
-}
-
 .size-7 {
   width: 1.75rem;
   height: 1.75rem;
@@ -1117,16 +1103,8 @@ video {
   height: 60px;
 }
 
-.h-4 {
-  height: 1rem;
-}
-
-.h-9 {
-  height: 2.25rem;
-}
-
-.h-10 {
-  height: 2.5rem;
+.h-full {
+  height: 100%;
 }
 
 .min-h-96 {
@@ -1135,6 +1113,10 @@ video {
 
 .min-h-\[326px\] {
   min-height: 326px;
+}
+
+.w-0 {
+  width: 0px;
 }
 
 .w-16 {
@@ -1167,22 +1149,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-0 {
-  width: 0px;
-}
-
-.w-4 {
-  width: 1rem;
-}
-
-.w-9 {
-  width: 2.25rem;
-}
-
-.w-10 {
-  width: 2.5rem;
 }
 
 .max-w-2xl {
@@ -2645,10 +2611,6 @@ video {
   -moz-osx-font-smoothing: auto;
 }
 
-.opacity-0 {
-  opacity: 0;
-}
-
 .bg-blend-normal {
   background-blend-mode: normal;
 }
@@ -2913,26 +2875,14 @@ video {
   transition-duration: 150ms;
 }
 
-.transition-all {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .transition-\[width\] {
   transition-property: width;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
 
-.transition-\[left\] {
-  transition-property: left;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-\[position\] {
-  transition-property: position;
+.transition-all {
+  transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -3100,24 +3050,12 @@ video {
     }
   }
 
-  .md\:visible {
-    visibility: visible;
-  }
-
-  .md\:static {
-    position: static;
-  }
-
-  .md\:block {
-    display: block;
-  }
-
-  .md\:flex {
-    display: flex;
-  }
-
   .md\:hidden {
     display: none;
+  }
+
+  .md\:h-auto {
+    height: auto;
   }
 
   .md\:w-96 {
@@ -3143,10 +3081,6 @@ video {
 
   .md\:border-r {
     border-right-width: 1px;
-  }
-
-  .md\:opacity-100 {
-    opacity: 1;
   }
 }
 
