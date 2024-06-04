@@ -52,6 +52,10 @@
             overflow-hidden shadow-card cursor-pointer;
   }
 
+  .chat {
+      @apply hover:bg-cardBackground flex flex-col gap-1 px-6 py-4 border-b border-whiteSmoke select-none;
+  }
+
   #projects {
       @apply grid px-10 xl:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-6;
   }

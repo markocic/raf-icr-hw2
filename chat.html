@@ -9,7 +9,7 @@
   </head>
   <body class="background-gradient">
     <header
-      class="flex flex-row justify-between p-2.5 bg-whiteSmoke shadow-card"
+      class="flex flex-col gap-4 sm:gap-0 sm:flex-row justify-between p-2.5 bg-whiteSmoke shadow-card"
     >
       <div id="logo_section" class="flex flex-row items-center gap-[10px]">
         <img class="w-[60px] h-[60px]" src="images/logo.png" alt="Logo" />
@@ -17,7 +17,7 @@
       </div>
       <div
         id="header_items"
-        class="flex flex-row items-center gap-[51px] pr-8"
+        class="flex flex-col sm:flex-row items-center gap-3 sm:gap-[51px] sm:pr-8"
       >
         <a href="#" class="text-gunmetal text-xl">Home</a>
         <a href="#" class="text-gunmetal text-xl">Projects</a>
@@ -31,33 +31,35 @@
       </div>
     </header>
 
-    <div id="content" class="flex gap-0 text-whiteSmoke">
+    <div id="content" class="flex gap-0 text-whiteSmoke relative">
 
-      <div id="chats" class="w-96 border-r-gradientStart background-gradient
-          border-r border-y border-y-gradientStart shadow-card">
-        <div id="chat" class="flex flex-col gap-1 px-6 py-4 border-b
-            border-whiteSmoke">
+      <div id="chats" class="overflow-hidden w-0 border-0 md:w-96 border-r-gradientStart background-gradient
+          md:border-r md:border-y border-y-gradientStart shadow-card z-10
+          transition-[width]">
+        <div class="chat">
           <span class="text-xl">username</span>
           <span class="text-base">lorem ipsum dolor sit amet...</span>
         </div>
-        <div id="chat" class="flex flex-col gap-1 px-6 py-4 border-b
-            border-whiteSmoke">
+        <div class="chat">
           <span class="text-xl">username</span>
           <span class="text-base">lorem ipsum dolor sit amet...</span>
         </div>
-        <div id="chat" class="flex flex-col gap-1 px-6 py-4 border-b
-            border-whiteSmoke">
+        <div class="chat">
           <span class="text-xl">username</span>
           <span class="text-base">lorem ipsum dolor sit amet...</span>
         </div>
-        <div id="chat" class="flex flex-col gap-1 px-6 py-4 border-b
-            border-whiteSmoke">
+        <div class="chat">
           <span class="text-xl">username</span>
           <span class="text-base">lorem ipsum dolor sit amet...</span>
         </div>
       </div>
 
-      <div id="messages" class="w-full flex flex-col justify-between">
+      <div id="messages" class="w-full flex flex-col justify-between relative">
+          <div id="hamburger" class="flex md:hidden transition-all justify-center top-0 left-0 items-center bg-whiteSmoke w-16 h-16 absolute text-gunmetal">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </div>
 
         <div id="log" class="flex flex-col justify-end">
             <div class="outgoing-message message">
@@ -134,5 +136,6 @@
       </div>
 
     </div>
+    <script src="js/chats.js"></script>
   </body>
 </html>
